@@ -1,0 +1,7 @@
+{
+  "/management/page": "app/management/page.js",
+  "/people/page": "app/people/page.js",
+  "/policy/page": "app/policy/page.js",
+  "/soil/page": "app/soil/page.js",
+  "/where/page": "app/where/page.js"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "corn-on-the-black-soil",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Year 10 Geography Student Interest Project, Final Project: corn farming on the black soils of Heilongjiang Province, China",
+  "scripts": {
+    "prebuild": "node scripts/build-map.mjs && node scripts/count-words.mjs",
+    "predev": "node scripts/build-map.mjs && node scripts/count-words.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "node scripts/check-site.mjs && node scripts/make-offline.mjs",
+    "check": "node scripts/check-site.mjs",
+    "offline": "node scripts/make-offline.mjs"
+  },
+  "dependencies": {
+    "d3-geo": "3.1.1",
+    "next": "16.3.7",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}

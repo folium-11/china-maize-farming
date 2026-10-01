@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/evidence/page": "/evidence",
+  "/favicon.ico/route": "/favicon.ico",
+  "/icon.svg/route": "/icon.svg",
+  "/management/page": "/management",
+  "/page": "/",
+  "/people/page": "/people",
+  "/policy/page": "/policy",
+  "/references/page": "/references",
+  "/soil/page": "/soil",
+  "/where/page": "/where"
+}

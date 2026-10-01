@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/apple-icon.png/route": "app/apple-icon.png/route.js",
+  "/evidence/page": "app/evidence/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/icon.svg/route": "app/icon.svg/route.js",
+  "/management/page": "app/management/page.js",
+  "/page": "app/page.js",
+  "/people/page": "app/people/page.js",
+  "/policy/page": "app/policy/page.js",
+  "/references/page": "app/references/page.js",
+  "/soil/page": "app/soil/page.js",
+  "/where/page": "app/where/page.js"
+}
