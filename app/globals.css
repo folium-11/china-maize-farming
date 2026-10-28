@@ -79,6 +79,17 @@ tbody th { background: #faf6ec; font-weight: 600; }
 .cmp tr.first td, .cmp tr.first th { background: #fff8e1; }
 .tag { display: inline-block; padding: 0 0.4rem; border-radius: 0.25rem; background: var(--soft); font-size: 0.78rem; font-weight: 600; font-style: normal; }
 
+/* photographs */
+.photo { max-width: 44rem; padding: 0; overflow: hidden; }
+.photo img { display: block; width: 100%; height: auto; background: var(--soft); }
+.photo figcaption { margin: 0; padding: 0.6rem 0.9rem 0.75rem; }
+.photo-wide { max-width: none; }
+.photo-wide img { max-height: 26rem; object-fit: cover; }
+.photo-tall { float: right; width: 12rem; margin: 0.2rem 0 1rem 1.5rem; }
+.photo-tall img { max-height: 21rem; object-fit: cover; object-position: top; }
+.credit { display: block; margin-top: 0.25rem; font-size: 0.8rem; }
+.prose > h2, .prose > figure:not(.photo-tall) { clear: both; }
+
 /* map */
 .map-wrap svg { max-height: 80vh; }
 .under { fill: #222; stroke: #222; stroke-width: 2.4; stroke-linejoin: round; }
@@ -160,6 +171,9 @@ footer p { margin: 0 0 0.4rem; }
   .legend-main { width: 100%; }
   .scale { width: calc(100% - 1.4rem); margin-right: 0; }
   .question { font-size: 1.02rem; }
+  .photo { margin-left: -0.4rem; margin-right: -0.4rem; padding: 0; }
+  .photo-tall { float: none; width: auto; margin: 1.6rem auto; max-width: 14rem; }
+  .photo-tall img { max-height: 22rem; }
 }
 
 @media print {

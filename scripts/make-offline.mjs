@@ -12,7 +12,7 @@ const OFF = path.join(ROOT, "offline");
 if (!fs.existsSync(OUT)) { console.error("Run npm run build first."); process.exit(1); }
 fs.rmSync(OFF, { recursive: true, force: true });
 
-const keep = (rel) => rel.endsWith(".html") || rel.endsWith(".css") || /\.(svg|ico|png)$/.test(rel);
+const keep = (rel) => rel.endsWith(".html") || rel.endsWith(".css") || /\.(svg|ico|png|jpg)$/.test(rel);
 function walk(dir) {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap((e) => {
     const p = path.join(dir, e.name);

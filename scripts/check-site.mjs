@@ -118,10 +118,10 @@ for (const file of htmlFiles(OUT)) {
   const v = Object.fromEntries(m.provinces.map((p) => [p.code, p.value]));
   const where = fs.readFileSync(path.join(OUT, "where", "index.html"), "utf8");
   const hl = ((v.HL / m.meta.nationalTotal) * 100).toFixed(1);
-  if (!where.includes(`${hl} per cent`)) problems.push(`page 1 should give Heilongjiang's share as ${hl} per cent`);
+  if (!where.includes(`${hl} percent`)) problems.push(`page 1 should give Heilongjiang's share as ${hl} percent`);
   if (["HL", "JL", "LN", "NM"].every((c) => v[c] !== null)) {
     const belt = (((v.HL + v.JL + v.LN + v.NM) / m.meta.nationalTotal) * 100).toFixed(1);
-    if (!where.includes(`${belt} per cent`)) problems.push(`page 1 should give the corn belt share as ${belt} per cent`);
+    if (!where.includes(`${belt} percent`)) problems.push(`page 1 should give the corn belt share as ${belt} percent`);
   }
   const top = m.provinces.filter((p) => p.value !== null).sort((a, b) => b.value - a.value)[0];
   if (top.code !== "HL") problems.push(`${top.en} grew more corn than Heilongjiang, so the home page claim is wrong`);

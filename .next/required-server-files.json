@@ -104,7 +104,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "/Users/albert/Everything/corn-on-the-black-soil",
+    "outputFileTracingRoot": "/Users/work/Everything/04 Yr10/Geography/Website",
     "enablePrerenderSourceMaps": true,
     "cacheComponents": false,
     "cacheLife": {
@@ -319,13 +319,13 @@
     "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight",
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.mjs",
-    "repoRoot": "/Users/albert/Everything/corn-on-the-black-soil",
+    "repoRoot": "/Users/work/Everything/04 Yr10/Geography/Website",
     "turbopack": {
-      "root": "/Users/albert/Everything/corn-on-the-black-soil"
+      "root": "/Users/work/Everything/04 Yr10/Geography/Website"
     },
     "distDirRoot": ".next"
   },
-  "appDir": "/Users/albert/Everything/corn-on-the-black-soil",
+  "appDir": "/Users/work/Everything/04 Yr10/Geography/Website",
   "relativeAppDir": "",
   "files": [
     ".next/package.json",

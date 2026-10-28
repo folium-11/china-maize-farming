@@ -2,11 +2,11 @@
 export const captions = {
   map: {
     label: "Figure 1.",
-    text: "Corn output by province, 2025. Each province is shaded on a continuous scale that darkens evenly with output. Grey areas are outside NBS statistics. Equal area projection, boundaries from [[ne:n]] at 1:10 million scale.",
+    text: "Corn output by province, 2025. Each province is shaded on a continuous scale. Grey areas are not covered in NBS statistics. Equal area projection, boundaries from [[ne:n]] at a 1:10 million scale.",
   },
   soil: {
     label: "Figure 2.",
-    text: "My cross-section of a sloping black soil field, farmed conventionally on the left and with straw cover and no till on the right. Not to scale. Figures from [[liao:n]], [[jiang:n]] and [[sui:n]].",
+    text: "I made a cross section of a sloping black soil field, farmed conventionally on the left and with the straw cover and no till on the right. Figures procured based on farming processes described in [[liao:n]], [[jiang:n]] and [[sui:n]].",
   },
   chart: {
     label: "Figure 3.",

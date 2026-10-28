@@ -199,7 +199,7 @@ const out = {
     year: YEAR, nationalTotal: national.maize_10kt, previousYear: PREV, previousTotal: national.previous.maize_10kt,
     previousCount: nPrevious, shownSum: Math.round(sum * 100) / 100, shownGap: sumGap,
     // last sentences of the Figure 1 caption (counted in the word count)
-    captionData: `${nPrevious > 0 ? `An asterisk marks the ${nPrevious} provinces still on their ${PREV} figure. ` : ""}Data: ${sources}.`,
+    captionData: `${nPrevious > 0 ? `An asterisk marks the ${nPrevious} provinces where ${YEAR} statistics aren’t available yet. ` : ""}Data: ${sources}.`,
   },
   provinces: provinces.map((p) => {
     const v = value(p.code), y = yearOf(p.code), [cx, cy, a, room] = anchor(p), r = byCode.get(p.code), { ink } = inks.get(p.code);

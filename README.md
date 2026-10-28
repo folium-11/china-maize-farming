@@ -59,13 +59,18 @@ The map, its caption (which stops mentioning asterisks and 2024 once every provi
 
 `npm run build` runs `scripts/check-site.mjs` on the finished pages. It confirms that the word count shown in the footer matches the pages, that there are no em dashes, en dashes or semicolons anywhere in the visible text or labels, that the map has 31 provinces each painted exactly the colour its output has on the scale (it works the colour out again from the output), that a bigger output is never a lighter colour, that different outputs never share a colour code, that the colour bar and the table match the map, that the favicon is linked on every page and that every internal link works.
 
-**Word count rule:** headings, paragraphs, lists and captions are counted, including in-text citations. The menu, contents list, tables, labels inside figures, the footer and the reference list are not counted.
+**Word count rule:** headings, paragraphs, lists and captions are counted, including in-text citations. The menu, contents list, tables, labels inside figures, photo captions and credits, the footer and the reference list are not counted.
+
+## Photographs
+
+The seven photographs in `public/photos/` come from Wikimedia Commons. Each is public domain or under a Creative Commons licence, and each one's caption, photographer, licence and Commons page are in `content/photos.js`, which the pages use to print a credit under the photo. A page shows a photo with a `{ photo: "id" }` block in its content file.
 
 ## Folders
 
 * `app/` pages, layout, styles and the favicon. `icon.svg` is the drawing (a corn cob growing out of black soil), `favicon.ico` holds 16, 32 and 48 pixel copies of it and `apple-icon.png` is a square 180 pixel copy for iPhones, which round the corners themselves. `public/brand.svg` (the logo in the page header) is the same drawing as `icon.svg`.
 * `components/` the figures and page parts
-* `content/` all of the writing, the reference list, the figure data and the comparison table
+* `content/` all of the writing, the reference list, the figure data, the comparison table and the photo credits
+* `public/photos/` the photographs
 * `data/` map boundaries, province adjacency (made with the boundaries, no longer used by the map) and the corn table
 * `scripts/` map builder, colour scale, word counter, site checks and the offline copy
 * `generated/` files made by the scripts during the build
