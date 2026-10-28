@@ -87,8 +87,11 @@ tbody th { background: #faf6ec; font-weight: 600; }
 .photo-wide img { max-height: 26rem; object-fit: cover; }
 .photo-tall { float: right; width: 12rem; margin: 0.2rem 0 1rem 1.5rem; }
 .photo-tall img { max-height: 21rem; object-fit: cover; object-position: top; }
+.photo-graph img { background: #fff; }
+.photo-narrow { max-width: 30rem; }
 .credit { display: block; margin-top: 0.25rem; font-size: 0.8rem; }
-.prose > h2, .prose > figure:not(.photo-tall) { clear: both; }
+/* photos (overflow: hidden) sit beside a floated photo instead of dropping below it */
+.prose > h2, .prose > figure:not(.photo) { clear: both; }
 
 /* map */
 .map-wrap svg { max-height: 80vh; }
