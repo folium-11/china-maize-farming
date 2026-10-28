@@ -4,10 +4,11 @@ import { captions } from "@/content/figures.js";
 import { columns, rows } from "@/content/table.js";
 import { byId } from "@/content/bibliography.js";
 
-export default function ComparisonTable() {
+// className lets Plasmic Studio style the figure (see plasmic-init-client.tsx)
+export default function ComparisonTable({ className }) {
   const c = captions.table;
   return (
-    <figure className="table-fig">
+    <figure className={className ? `table-fig ${className}` : "table-fig"}>
       <figcaption data-count="" className="cap-top">
         <strong>{c.label}</strong> <Text>{c.text}</Text>
       </figcaption>

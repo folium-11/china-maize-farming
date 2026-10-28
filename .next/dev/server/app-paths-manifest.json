@@ -1,7 +1,8 @@
 {
-  "/management/page": "app/management/page.js",
-  "/people/page": "app/people/page.js",
-  "/policy/page": "app/policy/page.js",
+  "/[...catchall]/page": "app/[...catchall]/page.js",
+  "/evidence/page": "app/evidence/page.js",
+  "/page": "app/page.js",
+  "/plasmic-host/page": "app/plasmic-host/page.js",
   "/soil/page": "app/soil/page.js",
   "/where/page": "app/where/page.js"
 }

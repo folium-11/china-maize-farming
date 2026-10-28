@@ -1,4 +1,7 @@
-{"timestamp":"00:00:00.619","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:01.370","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:00:01.604","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
-{"timestamp":"00:00:14.379","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:00.935","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:01.529","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:05.932","source":"Server","level":"ERROR","message":"⨯ Error: Error parsing JSON response: SyntaxError: Unexpected token 'U', \"Upstream r\"... is not valid JSON; status: 499; response: Upstream responded with 404"}
+{"timestamp":"00:00:14.693","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:00:29.055","source":"Server","level":"ERROR","message":"⨯ Error: Page \"/[...catchall]/page\" is missing param \"/[...catchall]\" in \"generateStaticParams()\", which is required with \"output: export\" config."}
+{"timestamp":"00:00:29.482","source":"Server","level":"LOG","message":"Subscribing to Plasmic changes..."}
+{"timestamp":"00:00:31.121","source":"Server","level":"ERROR","message":"2026-10-28T21:11:19.913Z: Encountered error No read access to projects PROJECTID"}

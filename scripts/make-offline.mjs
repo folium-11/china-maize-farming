@@ -5,6 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { pages } from "../content/site.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(ROOT, "out");
@@ -20,9 +21,12 @@ function walk(dir) {
   });
 }
 
+// Plasmic pages and /plasmic-host need JavaScript, so only my own pages go in the offline copy.
+const own = new Set(pages.map((p) => `${p.href.slice(1)}index.html`));
 for (const file of walk(OUT)) {
   const rel = path.relative(OUT, file).split(path.sep).join("/");
   if (!keep(rel) || rel.startsWith("404") || rel.startsWith("_not-found")) continue;
+  if (rel.endsWith(".html") && !own.has(rel)) continue;
   const dest = path.join(OFF, rel);
   fs.mkdirSync(path.dirname(dest), { recursive: true });
   if (!rel.endsWith(".html")) { fs.copyFileSync(file, dest); continue; }

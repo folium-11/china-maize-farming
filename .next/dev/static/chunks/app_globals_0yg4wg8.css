@@ -354,6 +354,63 @@ tbody th {
   display: inline-block;
 }
 
+.photo {
+  max-width: 44rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+.photo img {
+  background: var(--soft);
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo figcaption {
+  margin: 0;
+  padding: .6rem .9rem .75rem;
+}
+
+.photo-wide {
+  max-width: none;
+}
+
+.photo-wide img {
+  object-fit: cover;
+  max-height: 26rem;
+}
+
+.photo-tall {
+  float: right;
+  width: 12rem;
+  margin: .2rem 0 1rem 1.5rem;
+}
+
+.photo-tall img {
+  object-fit: cover;
+  object-position: top;
+  max-height: 21rem;
+}
+
+.photo-graph img {
+  background: #fff;
+}
+
+.photo-narrow {
+  max-width: 30rem;
+}
+
+.credit {
+  margin-top: .25rem;
+  font-size: .8rem;
+  display: block;
+}
+
+.prose > h2, .prose > figure:not(.photo) {
+  clear: both;
+}
+
 .map-wrap svg {
   max-height: 80vh;
 }
@@ -771,6 +828,23 @@ footer p {
 
   .question {
     font-size: 1.02rem;
+  }
+
+  .photo {
+    margin-left: -.4rem;
+    margin-right: -.4rem;
+    padding: 0;
+  }
+
+  .photo-tall {
+    float: none;
+    width: auto;
+    max-width: 14rem;
+    margin: 1.6rem auto;
+  }
+
+  .photo-tall img {
+    max-height: 22rem;
   }
 }
 

@@ -8,6 +8,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { rgbToLab } from "./colour.mjs";
 import { makeScale } from "./scale.mjs";
+import { pages } from "../content/site.js";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(ROOT, "out");
@@ -35,8 +36,13 @@ let total = 0;
 const perPage = {};
 const banned = /\b(delve|tapestry|pivotal|crucial|landscape|navigat\w*|robust|multifaceted|nuanced|underscore\w*|testament|furthermore|moreover|in conclusion|not only)\b/i;
 
+// Only my own pages (and the 404 page) are checked. Plasmic pages and /plasmic-host are
+// made in Plasmic Studio, so the word count and wording rules do not apply to them.
+const own = new Set(pages.map((p) => path.join(p.href.slice(1), "index.html")));
+const skipped = [];
 for (const file of htmlFiles(OUT)) {
   const rel = path.relative(OUT, file);
+  if (!own.has(rel) && !rel.startsWith("404") && !rel.startsWith("_not-found")) { skipped.push(rel); continue; }
   const html = fs.readFileSync(file, "utf8");
   const body = html.replace(/<script[\s\S]*?<\/script>/g, "").replace(/<style[\s\S]*?<\/style>/g, "");
   const head = (body.match(/<head>([\s\S]*?)<\/head>/) || ["", ""])[1];
@@ -130,6 +136,7 @@ for (const file of htmlFiles(OUT)) {
 if (total !== expected.total) problems.push(`word count on the pages is ${total}, footer says ${expected.total}`);
 for (const f of ["favicon.ico", "icon.svg", "apple-icon.png"]) if (!fs.existsSync(path.join(OUT, f))) problems.push(`missing ${f}`);
 
+if (skipped.length) console.log("not checked (Plasmic):", skipped.join(", "));
 console.log("words per page", perPage);
 console.log(`word count ${total} (footer ${expected.total})`);
 for (const w of warn) console.log("note:", w);

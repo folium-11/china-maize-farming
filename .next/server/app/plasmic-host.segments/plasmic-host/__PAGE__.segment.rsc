@@ -1,0 +1,26 @@
+1:"$Sreact.fragment"
+2:I[82855,["/_next/static/chunks/376eka2xm4a30.js","/_next/static/chunks/1-wkdf313aocq.js"],"PlasmicCanvasHost"]
+3:I[97367,["/_next/static/chunks/376eka2xm4a30.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[97367,["/_next/static/chunks/376eka2xm4a30.js"],"ViewportBoundary"]
+9:I[97367,["/_next/static/chunks/376eka2xm4a30.js"],"MetadataBoundary"]
+a:I[27201,["/_next/static/chunks/376eka2xm4a30.js"],"IconMark"]
+c:I[39756,["/_next/static/chunks/376eka2xm4a30.js"],"default"]
+d:I[37457,["/_next/static/chunks/376eka2xm4a30.js"],"default"]
+10:I[22016,["/_next/static/chunks/376eka2xm4a30.js"],""]
+11:I[78660,["/_next/static/chunks/376eka2xm4a30.js"],"default"]
+:HL["/_next/static/chunks/30j-x2g0r39t8.css","style"]
+:HL["/brand.svg","image"]
+7:X
+f:X
+f:C
+0:{"buildId":"MXR_sKOuLMZ51XKuYTKZh","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/_next/static/chunks/1-wkdf313aocq.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#2a1c10"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Corn farming on the black soils of Heilongjiang Province, China"}],["$","meta","1",{"name":"description","content":"A Year 10 Geography Student Interest Project on how sustainable corn farming is on the black soils of Heilongjiang Province, China."}],["$","meta","2",{"name":"author","content":"Albert Jiang"}],["$","link","3",{"rel":"icon","href":"/favicon.ico?favicon.120vamhn-78-e.ico","sizes":"48x48","type":"image/x-icon"}],["$","link","4",{"rel":"icon","href":"/icon.svg?icon.2qll07t0n4wpy.svg","sizes":"any","type":"image/svg+xml"}],["$","link","5",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.3wqwrrzik_tmc.png","sizes":"180x180","type":"image/png"}],["$","$La","6",{}]]}]}]}],null]}],"isPartial":"$@b","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@e","staleTime":"$7","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/30j-x2g0r39t8.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/376eka2xm4a30.js","async":true}]],["$","html",null,{"lang":"en-AU","children":["$","body",null,{"children":[["$","a",null,{"className":"skip","href":"#main","children":"Skip to content"}],["$","header",null,{"className":"site-head","children":["$","div",null,{"className":"inner","children":[["$","$L10",null,{"className":"brand","href":"/","children":[["$","img",null,{"src":"/brand.svg","alt":"","width":"32","height":"32"}],["$","span",null,{"children":["Corn on the black soil",["$","small",null,{"children":"Year 10 Geography, Student Interest Project"}]]}]]}],["$","$L11",null,{}]]}]}],["$","main",null,{"id":"main","children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}],["$","footer",null,{"children":["$","div",null,{"className":"inner","children":[["$","p",null,{"children":["Albert Jiang",", ","Year 10 Geography, Student Interest Project",", Final Project. Submitted ","26 October 2026","."]}],["$","p",null,{"children":[["$","strong",null,{"children":["Word count: ","2,604"]}],". Counted: headings, paragraphs, lists and captions, including in-text citations. Not counted: the menu, contents list, tables, labels inside figures, photo captions and credits, this footer and the reference list."]}]]}]}]]}]}]]}],"isPartial":"$@12","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@13","rootVaryParams":null,"needsRuntimeRequest":"$@14"}
+5:null
+7:300
+14:true
+7:C
+13:0
+b:"$undefined"
+e:"$undefined"
+12:"$undefined"
+6:"$undefined"

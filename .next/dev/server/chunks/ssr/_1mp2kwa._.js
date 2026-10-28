@@ -147,7 +147,7 @@ function RootLayout({ children }) {
                                         lineNumber: 40,
                                         columnNumber: 15
                                     }, this),
-                                    ". Counted: headings, paragraphs, lists and captions, including in-text citations. Not counted: the menu, contents list, tables, labels inside figures, this footer and the reference list."
+                                    ". Counted: headings, paragraphs, lists and captions, including in-text citations. Not counted: the menu, contents list, tables, labels inside figures, photo captions and credits, this footer and the reference list."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/layout.js",
@@ -269,12 +269,12 @@ const pages = [
     {
         href: "/policy/",
         nav: "3 Policy",
-        title: "3. How national policy shapes planting"
+        title: "3. The effects of national policy"
     },
     {
         href: "/people/",
         nav: "4 People",
-        title: "4. What corn means for rural communities"
+        title: "4. Impact of corn production on rural communities"
     },
     {
         href: "/management/",
@@ -296,15 +296,15 @@ const pages = [
 "[project]/generated/wordcount.json.[json].cjs [app-rsc] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
 module.exports = {
-    "total": 2116,
+    "total": 2604,
     "perPage": {
-        "/": 127,
-        "/where/": 263,
-        "/soil/": 325,
-        "/policy/": 356,
-        "/people/": 301,
-        "/management/": 473,
-        "/evidence/": 271
+        "/": 153,
+        "/where/": 327,
+        "/soil/": 394,
+        "/policy/": 405,
+        "/people/": 389,
+        "/management/": 559,
+        "/evidence/": 377
     }
 };
 }),

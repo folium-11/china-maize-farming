@@ -35,7 +35,16 @@
     "afterFiles": [],
     "fallback": []
   },
-  "dynamicRoutes": [],
+  "dynamicRoutes": [
+    {
+      "page": "/[...catchall]",
+      "regex": "^/(.+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPcatchall": "nxtPcatchall"
+      },
+      "namedRegex": "^/(?<nxtPcatchall>.+?)(?:/)?$"
+    }
+  ],
   "staticRoutes": [
     {
       "page": "/",
@@ -90,6 +99,12 @@
       "regex": "^/people(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/people(?:/)?$"
+    },
+    {
+      "page": "/plasmic-host",
+      "regex": "^/plasmic\\-host(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/plasmic\\-host(?:/)?$"
     },
     {
       "page": "/policy",
