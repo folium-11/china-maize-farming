@@ -38,8 +38,8 @@ export default function RootLayout({ children }) {
             </p>
             <p>
               <strong>Word count: {wordcount.total.toLocaleString("en-AU")}</strong>. Counted: headings, paragraphs, lists and
-              captions, including in-text citations. Not counted: the menu, contents list, tables, labels inside figures, this
-              footer and the reference list.
+              captions, including in-text citations. Not counted: the menu, contents list, tables, labels inside figures, photo
+              captions and credits, this footer and the reference list.
             </p>
           </div>
         </footer>

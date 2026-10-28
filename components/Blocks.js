@@ -5,6 +5,7 @@ import SoilProfile from "./SoilProfile";
 import ProductionImports from "./ProductionImports";
 import ComparisonTable from "./ComparisonTable";
 import ConceptMap from "./ConceptMap";
+import Photo from "./Photo";
 import { questionText } from "@/content/index.js";
 import { pages } from "@/content/site.js";
 
@@ -31,6 +32,7 @@ export default function Blocks({ blocks }) {
       const Figure = figures[b.fig];
       return <Figure key={i} />;
     }
+    if (b.photo) return <Photo key={i} id={b.photo} />;
     if (b.toc)
       return (
         <ul key={i} className="toc">
