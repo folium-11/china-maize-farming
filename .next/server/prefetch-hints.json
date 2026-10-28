@@ -22,6 +22,20 @@
       }
     }
   },
+  "/[...catchall]": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
   "/evidence": {
     "hints": 64,
     "slots": {
@@ -60,6 +74,20 @@
     }
   },
   "/people": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "/plasmic-host": {
     "hints": 64,
     "slots": {
       "children": {

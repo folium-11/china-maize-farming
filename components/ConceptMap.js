@@ -8,11 +8,12 @@ const NW = 186; // node width
 const NH = 38; // node height
 const byId = Object.fromEntries(nodes.map((n) => [n.id, n]));
 
-export default function ConceptMap() {
+// className lets Plasmic Studio style the figure (see plasmic-init-client.tsx)
+export default function ConceptMap({ className }) {
   const c = captions.cmap;
   const corners = [[416, 266], [584, 266], [416, 434], [584, 434]];
   return (
-    <figure>
+    <figure className={className}>
       <svg className="cmap" viewBox="0 0 1000 700" role="img" aria-labelledby="cmap-title">
         <title id="cmap-title">Concept map linking my sources to the core idea, maize farming in Heilongjiang</title>
         {clusters.map((k) => (

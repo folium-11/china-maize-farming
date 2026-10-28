@@ -113,12 +113,12 @@ const pages = [
     {
         href: "/policy/",
         nav: "3 Policy",
-        title: "3. How national policy shapes planting"
+        title: "3. The effects of national policy"
     },
     {
         href: "/people/",
         nav: "4 People",
-        title: "4. What corn means for rural communities"
+        title: "4. Impact of corn production on rural communities"
     },
     {
         href: "/management/",

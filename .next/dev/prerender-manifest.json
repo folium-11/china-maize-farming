@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "38c96dc2d7e948d0a5c7da9601643407",
-    "previewModeSigningKey": "dee9c5dce7ce1c2f28bab21997053d894871d2f780141f807ec9de764bc0f4fd",
-    "previewModeEncryptionKey": "aef159ebb8e43bcba591738627b0ab9d0b9b1dc951cb8680d3cc77db254663df"
-  }
-}
+{"version":4,"routes":{"/plasmic-no-pages":{}},"dynamicRoutes":{"/[...catchall]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/[...catchall]","routeRegex":"^\\/(.+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"e4ff2a321d3b7b11deb68a9803d3aee6","previewModeSigningKey":"fc910b22a66e54bbdb1f56ab7e073a6ce463c8f612d49fa07ac61440dc33f4e7","previewModeEncryptionKey":"e1198e77b172188b911e4cde9862b7bc00aca2adfe7861a03285bcf634dbc4b1"}}

@@ -14,9 +14,16 @@
     "offline": "node scripts/make-offline.mjs"
   },
   "dependencies": {
+    "@plasmicapp/loader-nextjs": "^2.0.30",
     "d3-geo": "3.1.1",
     "next": "16.3.7",
     "react": "19.3.0",
     "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
   }
 }

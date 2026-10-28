@@ -1,4 +1,5 @@
 {
+  "/[...catchall]/page": "/[...catchall]",
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
   "/apple-icon.png/route": "/apple-icon.png",
@@ -8,6 +9,7 @@
   "/management/page": "/management",
   "/page": "/",
   "/people/page": "/people",
+  "/plasmic-host/page": "/plasmic-host",
   "/policy/page": "/policy",
   "/references/page": "/references",
   "/soil/page": "/soil",
